@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.center {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#navbar-nova {
+    position: fixed;
+    width: 100%;
+}
+
+/*
+Section Main
+*/
+
+section.main {
+    background-image: url('Images/image1.png');
+    padding: 17.5% 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main__cta {
+    width: 100%;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.main__cta h2 {
+    color: #FFFFFFA6;
+    font-size: 40px;
+}
+
+.main__cta h5 {
+    color: #FFFFFFA6;
+    margin: 2% 0;
+    font-size: 80%;
+}
+
+.main__cta h3 a {
+    margin-top: 2%;
+    background-color: transparent;
+    display: inline-block;
+    padding: 8px 30px;
+    color: #FFFFFFA6;
+    border-radius: 6px;
+    font-size: 16px;
+    border: 1px;
+    border-style: solid;
+    cursor: pointer;
+    transition: 0.4s;
+    text-decoration: none;
+}
+
+.main__cta h3 a:hover {
+    font-size: 17px;
+    transition: 0.4s;
+    backdrop-filter: blur(10px);
+}
+
+.diferenciais {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.diferencial-single {
+    background-color: transparent;
+    border: 1px;
+    border-color: #FFFFFFA6;
+    border-style: solid;
+    width: 23%;
+    margin-right: 2%;
+    margin-top: 2%;
+    padding: 50px 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.diferencial-single:hover {
+    width: 23%;
+    margin-right: 2%;
+    margin-top: 2%;
+    padding: 40px 20px;
+    transition: 0.8s;
+    border-radius: 10px;
+    backdrop-filter: blur(6px);
+}
+
+.diferencial-single:hover p {
+    color: #FFFFFFA6;
+    font-size: 15px;
+    display: block;
+    transition: 0.3s;
+    line-height: 30px;
+}
+
+.diferencial-single p {
+    transition: 0.4s;
+}
+
+.diferencial-single p:hover {
+    color: #2b3035;
+    transition: 0.4s;
+}
+
+.diferencial-single i {
+    color: #FFFFFFA6;
+    font-size: 24px;
+    transition: 0.4s;
+}
+
+.diferencial-single i:hover {
+    color: #2b3035;
+    transition: 0.4s;
+}
+
+.diferencial-single h2 {
+    color: #FFFFFFA6;
+    margin: 10px 0;
+    font-size: 17px;
+    transition: 0.4s;
+}
+
+.diferencial-single h2:hover {
+    color: #2b3035;
+    transition: 0.4s;
+}
+
+.diferencial-single p {
+    display: none;
+    transition: 0.4s;
+}
+
+.diferencial-single p i {
+    color: #FFFFFFA6;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.diferencial-single p a i {
+    color: #FFFFFFA6;
+    font-size: 15px;
+    line-height: 30px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.diferencial-single p a i:hover {
+    color: #FFFFFFA6;
+    font-size: 17px;
+    line-height: 30px;
+    transition: 0.4s;
+}
+
+.diferencial-single p a {
+    margin-top: 4%;
+    background-color: transparent;
+    display: inline-block;
+    padding: 1px 10px;
+    border-color: #FFFFFFA6;
+    color: #FFFFFFA6;
+    border-radius: 6px;
+    font-size: 11px;
+    border: 1px;
+    border-style: solid;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.diferencial-single p a:hover {
+    font-size: 12px;
+}
+
+/*========================== CONHECIMENTOS ==========================*/
+
+section.conhecimentos {
+    background-color: #2b3035;
+    padding: 80px 0;
+}
+
+.ct {
+    width: 100%;
+    text-align: center;
+}
+
+.ct h2 {
+    color:#FFFFFFA6;
+    text-transform: uppercase;
+}
+
+.cto p {
+    color: #FFFFFFA6;
+}
+
+.cto span {
+    display: inline-block;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.cto {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20%;
+}
+
+.cto p {
+    width: 48%;
+    margin-right: 0%;
+    color: white;
+}
+
+.cto i {
+    color: #FFFFFFA6;
+    font-size: 13px;
+    text-transform: none;
+    transition: 0.3s;
+}
+
+.cto i:hover {
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+/* =========== PROJETOS ============ */
+
+section.projetos {
+    padding: 80px 0;
+}
+
+/* =========== SOBREMIM ============ */
+
+section.sobre {
+    padding: 80px 0;
+}
+
+.chamada-sobre {
+    width: 100%;
+    text-align: center;
+}
+
+.chamada-sobre h2 {
+    color: grey;
+    text-transform: uppercase;
+}
+
+.chamada-sobre h3 {
+    color: grey;
+    margin: 10px 0;
+}
+
+.chamada-sobre p {
+    font-size: 14px;
+    color: gray;
+    margin: 10px 0;
+}
+
+.conteudo-sobre span {
+    display: inline-block;
+    margin-top: 10px;
+    width: 100%;
+    color: grey;
+    text-transform: uppercase;
+}
+
+.conteudo-sobre {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conteudo-sobre p {
+    width: 48%;
+    margin-right: 2%;
+    color: #444444;
+}
+
+.conteudo-sobre i {
+    color: grey;
+    font-size: 15px;
+    text-transform: none;
+}
+
+section.conquistas {
+    background-color: #2b3035;
+    padding: 20px 0;
+}
+
+.conquista-single {
+    width: 22%;
+    margin-right: 3%;
+    text-align: center;
+    color: #FFFFFFA6;
+}
+
+.conquista-single p i a {
+    width: 22%;
+    margin-right: 0%;
+    text-align: center;
+    color: #FFFFFFA6;
+    text-decoration: none;
+}
+
+.conquista-single p i {
+    transition: 0.3s;
+}
+
+.conquista-single p i:hover {
+    font-size: 18px;
+    transition: 0.4s;
+}
+
+@media screen and (max-width: 768px) {
+    .conquista-single p i a {
+        width: 200px;
+        overflow-wrap: break-word;  
+        word-wrap: break-word; 
+        word-break: break-word;
+    }
+    .logo h2 {
+        margin-top: 5%;
+        margin-left: 50%;
+    }
+
+    .logo {
+        width: 10%;
+    }
+    
+    .diferencial-single {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .diferencial-single:hover {
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 50px 20px;
+        background-color: transparent;
+    }
+    .diferencial-single p {
+        color: gray;
+        font-size: 15px;
+        display: block;
+        line-height: 30px;
+    }
+
+    .cto p {
+        width: 100%;
+        margin: 15px 7.5px;
+    }
+
+    .conteudo-sobre p {
+        width: 100%;
+        margin: 20px 20px;
+    }
+    .menu {
+        display: none;
+    }
+}
