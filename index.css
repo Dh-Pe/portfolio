@@ -20,6 +20,7 @@ html {
 #navbar-nova {
     position: fixed;
     width: 100%;
+    z-index: 1000;
 }
 
 /*
@@ -243,7 +244,75 @@ section.conhecimentos {
 
 section.projetos {
     padding: 80px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url('Images/image1.png');
 }
+
+.titulo_projetos {
+    color:#FFFFFFA6;
+    width: 100%;
+    text-align: center;
+}
+
+.titulo_projetos h2 {
+    text-transform: uppercase;
+}
+
+.card {
+    width: 23%;
+    border: 1px;
+    margin-right: 0%;
+    margin-left: 1.5%;
+    margin-top: 2%;
+    padding: 50px 20px;
+    transition: 0.3s;
+    background-color: transparent;
+    border-color: #FFFFFFA6;
+    border-style: solid;
+    border-radius: 10px;
+    backdrop-filter: blur(6px);
+}
+
+.card h5, p {
+    color: #FFFFFFA6;
+    padding: 0%;
+}
+
+.card a {
+    margin-top: 4%;
+    background-color: transparent;
+    display: inline-block;
+    padding: 5px 10px;
+    border-color: #FFFFFFA6;
+    color: #FFFFFFA6;
+    border-radius: 6px;
+    font-size: 11px;
+    border: 1px;
+    border-style: solid;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.card a:hover {
+    font-size: 12px;
+}
+
+.card li{
+    color: #FFFFFFA6;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 100;
+}
+
 
 /* =========== SOBREMIM ============ */
 
@@ -347,12 +416,19 @@ section.conquistas {
         margin-bottom: 20px;
     }
 
+    .card {
+        width: 0% auto;
+        margin-left: 5%;
+        margin-right: 1%;
+    }
+
     .diferencial-single:hover {
         width: 100%;
         margin-bottom: 20px;
         padding: 50px 20px;
         background-color: transparent;
     }
+
     .diferencial-single p {
         color: gray;
         font-size: 15px;
@@ -368,8 +444,5 @@ section.conquistas {
     .conteudo-sobre p {
         width: 100%;
         margin: 20px 20px;
-    }
-    .menu {
-        display: none;
     }
 }
