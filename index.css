@@ -48,6 +48,26 @@ section.main {
     text-align: left;
 }
 
+#dhomini {
+    border-right: 2px solid;
+    width: 12ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(10), blinking 0.5s infinite step-end alternate;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blinking {
+    50% {
+        border-color: transparent;
+    }
+}
+
 .main__cta h3 a {
     margin-top: 2%;
     background-color: transparent;
