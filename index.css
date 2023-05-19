@@ -426,7 +426,7 @@ section.conquistas {
 
     #dhomini {
         border-right: 2px solid;
-        width: 12.2ch;
+        width: 13ch;
         white-space: nowrap;
         overflow: hidden;
         animation: typing 2s steps(10), blinking 0.5s infinite step-end alternate;
