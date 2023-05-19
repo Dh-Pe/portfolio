@@ -50,10 +50,10 @@ section.main {
 
 #dhomini {
     border-right: 2px solid;
-    width: 12ch;
+    width: 12.3ch;
     white-space: nowrap;
     overflow: hidden;
-    animation: typing 2s steps(10), blinking 0.5s infinite step-end alternate;
+    animation: typing 2s steps(25), blinking 0.5s infinite step-end alternate;
 }
 
 @keyframes typing {
@@ -429,7 +429,7 @@ section.conquistas {
         width: 13ch;
         white-space: nowrap;
         overflow: hidden;
-        animation: typing 2s steps(10), blinking 0.5s infinite step-end alternate;
+        animation: typing 2s steps(25), blinking 0.5s infinite step-end alternate;
     }
     
     .diferencial-single {
