@@ -416,6 +416,13 @@ section.conquistas {
     .logo {
         width: 10%;
     }
+
+    .main__cta h2 {
+        color: #FFFFFFA6;
+        font-size: 200%;
+        text-align: left;
+        justify-content: start;
+    }
     
     .diferencial-single {
         width: 100%;
