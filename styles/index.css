@@ -23,12 +23,15 @@ html {
     z-index: 1000;
 }
 
-/*
-Section Main
-*/
+.modal-body {
+    text-align: left;
+}
+.modal-body p {
+    color: black;
+}
 
 section.main {
-    background-image: url('Images/image1.png');
+    background-image: url('../images/image1.png');
     padding: 17.5% 0;
     background-position: center;
     background-size: cover;
@@ -68,7 +71,7 @@ section.main {
     }
 }
 
-.main__cta h3 a {
+.main__cta #curriculoButton {
     margin-top: 2%;
     background-color: transparent;
     display: flex;
@@ -86,7 +89,10 @@ section.main {
     text-decoration: none;
 }
 
-.main__cta h3 a:hover {
+.main__cta #curriculoButton:hover {
+    background-color: transparent;
+    border-color: #FFFFFFA6;
+    color: #FFFFFFA6;
     font-size: 17px;
     width: 150px;
     transition: 0.4s;
@@ -253,7 +259,7 @@ section.projetos {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: url('Images/image1.png');
+    background-image: url('../images/image1.png');
 }
 
 .titulo_projetos {

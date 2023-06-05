@@ -12,7 +12,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="styles/index.css">
 </head>
 
 <body>
@@ -27,7 +27,7 @@
     <header id="home">
         <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark" id="navbar-nova">
             <div class="container-fluid">
-                <a class="navbar-brand">Dh-Pe</a>
+                <a class="navbar-brand" href="#">Dh-Pe</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -60,8 +60,103 @@
             <div class="main__cta">
                 <h2 id="ola">Olá, eu sou</h2>
                 <h2 id="dhomini">Dhomini Pereira</h2>
-                <h3><a href="https://docs.google.com/document/d/1hTfDNq-y7cfUq4WyKVbtH5SB_YIE6dUJ7-71qxu1pDs/edit?usp=share_link"
-                        target="_blank"><i class="fa-solid fa-download"></i> Currículo</a></h3>
+
+                <button id="curriculoButton" type="button" class="btn btn-primary" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+                    <i class="fa-solid fa-download"></i>Currículo
+                </button>
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Currículo</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h1>Dhomini da Silva Pereira</h1>
+                                <p>20 anos, Masculino, Natural de Rio de Janeiro - Brasil <br />
+                                    Avenida Itaóca, 1465 - Bonsucesso, Rio de Janeiro, RJ, 21061-021 - Brasil
+                                    (21)97740-4039 </br>
+                                    <a
+                                        href="mailto:&#100;&#x73;&#105;&#108;&#118;&#x61;&#x32;&#48;&#x30;&#x33;&#x32;&#48;&#x31;&#x38;&#64;&#x67;&#109;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#111;&#x6d;">&#100;&#x73;&#105;&#108;&#118;&#x61;&#x32;&#48;&#x30;&#x33;&#x32;&#48;&#x31;&#x38;&#64;&#x67;&#109;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#111;&#x6d;</a></br>
+                                    <a href="https://dhomini-pereira.netlify.app">dhomini-pereira.netlify.app</a> <br />
+                                    Carteira Nacional de Habilitação - Categoria B
+                                </p>
+                                <h3>Objetivos</h3>
+                                <p>Meu nome é Dhomini e sou um estagiário de TI em busca de crescer em minha carreira.
+                                    Como muitos jovens
+                                    profissionais, estou animado com as possibilidades que o mercado de tecnologia tem a
+                                    oferecer. Como um
+                                    estagiário, meu objetivo principal é aprender o máximo possível durante o meu tempo
+                                    na empresa, trabalhando
+                                    em
+                                    projetos desafiadores e colaborando com meus colegas de equipe.</p>
+                                <h3>Formação</h3>
+                                <h4>Graduação - Ciência da Computação</h4>
+                                <p>UNIVERSIDADE ESTÁCIO DE SÁ <br />
+                                    Janeiro de 2022 - Dezembro de 2025 (Previsão de Formatura) <br />
+                                    Período: 3º <br />
+                                    Turno: Noite</p>
+                                <h3>Experiências Profissionais</h3>
+                                <h4>Estagiário TI</h4>
+                                <p>Colégio Notre Dame Ipanema - Rio de Janeiro <br />
+                                    Novembro de 2022 - Abril de 2023<br /><br />
+                                    Auxiliar o usuário, envolvendo montagem, reparos e configurações de equipamentos e
+                                    na utilização de hardware
+                                    e
+                                    software; Auxiliar na instalação de equipamentos adquiridos pela empresa, assim como
+                                    softwares de up grade;
+                                    Habilitar novos usuários de sistemas.</p>
+                                <h4>Estagiário Gestão
+                                    Administrativa dos Esquadrões</h4>
+                                <p>BrasilCap Capitalização S/A - Rio de Janeiro<br />
+                                    Abril de 2023 - Data Atual<br />
+                                    Teste unitários para garantir a qualidade do software; Criação de aplicações que
+                                    utilizam os serviços da
+                                    AWS,
+                                    permitindo que a equipe desenvolva soluções escaláveis e seguras; Utilização do
+                                    Angular e Typescript, o que
+                                    permite criar interfaces modernas e funcionais; Utilização do Node.js, o que
+                                    possibilita a construção de
+                                    aplicações robustas e de alta performance; Metodologia ágil Scrum.</p>
+                                <h3>Idiomas</h3>
+                                <h4>Inglês</h4>
+                                <p>Nível de Conhecimento: Básico ao intermediário</p>
+                                <h4>Português</h4>
+                                <p>Nível de Conhecimento: Nativo</p>
+                                <h3>Habilidades e Ferramentas</h3>
+                                <p>Básico: <br />
+                                    TypeScript, React JS, Angular, AWS, C# e SQL</p>
+                                <p>Intermediário: <br />
+                                    MongoDB e Web (HTML, CSS e JS)</p>
+                                <p>Avançado: <br />
+                                    Nodejs</p>
+                                <h3>Cursos</h3>
+                                <h4>Curso de JavaScript e
+                                    TypeScript do Básico ao
+                                    Avançado</h4>
+                                <p>Rio de Janeiro <br />
+                                    Dezembro de 2022 <br />
+                                    JavaScript Avançado; TypeScript Avançado; NodeJS Avançado; React Intermediário;
+                                    Banco de Dados relacional e
+                                    não-relacional.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="downloads/curriculo.docx" download>
+                                    <button type="button" class="btn btn-secondary"><i
+                                            class="fa-solid fa-file-word"></i> Download DOCX</button>
+                                </a>
+                                <a href="downloads/curriculo.pdf" download>
+                                    <button type="button" class="btn btn-primary"><i
+                                            class="fa-solid fa-file-pdf"></i>Download PDF</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="diferenciais" id="cursos">
