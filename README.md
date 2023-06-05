@@ -1,8 +1,8 @@
 # Dhomini da Silva Pereira
-20 anos, Masculino, Natural de Rio de Janeiro - Brasil
+20 anos, Masculino, Natural de Rio de Janeiro - Brasil <br/>
 Avenida Itaóca, 1465 - Bonsucesso, Rio de Janeiro, RJ, 21061-021 - Brasil (21)97740-4039
-dsilva20032018@gmail.com
-[dhomini-pereira.netlify.app](https://dhomini-pereira.netlify.app)
+dsilva20032018@gmail.com </br>
+[dhomini-pereira.netlify.app](https://dhomini-pereira.netlify.app) <br/>
 Carteira Nacional de Habilitação - Categoria B
 
 ### Objetivos
@@ -19,15 +19,13 @@ Turno: Noite
 ### Experiências Profissionais
 
 ##### Estagiário TI
-Colégio Notre Dame Ipanema - Rio de Janeiro
-Novembro de 2022 - Abril de 2023
-
+Colégio Notre Dame Ipanema - Rio de Janeiro <br/>
+Novembro de 2022 - Abril de 2023<br/><br/>
 Auxiliar o usuário, envolvendo montagem, reparos e configurações de equipamentos e na utilização de hardware e software; Auxiliar na instalação de equipamentos adquiridos pela empresa, assim como softwares de up grade; Habilitar novos usuários de sistemas.
 
 ##### Estagiário Gestão Administrativa dos Esquadrões
-BrasilCap Capitalização S/A - Rio de Janeiro
-Abril de 2023 - Data Atual
-
+BrasilCap Capitalização S/A - Rio de Janeiro<br/>
+Abril de 2023 - Data Atual<br/>
 Teste unitários para garantir a qualidade do software; Criação de aplicações que utilizam os serviços da AWS, permitindo que a equipe desenvolva soluções escaláveis e seguras; Utilização do Angular e Typescript, o que permite criar interfaces modernas e funcionais; Utilização do Node.js, o que possibilita a construção de aplicações robustas e de alta performance; Metodologia ágil Scrum.
 
 ### Idiomas
@@ -39,17 +37,17 @@ Nível de Conhecimento: Básico ao intermediário
 Nível de Conhecimento: Nativo
 
 ### Habilidades e Ferramentas
-Básico:
+Básico: <br/>
 TypeScript, React JS, Angular, AWS, C# e SQL
 
-Intermediário:
+Intermediário: <br/>
 MongoDB e Web (HTML, CSS e JS)
 
-Avançado:
+Avançado: <br/>
 Nodejs
 
 ### Cursos
 ##### Curso de JavaScript e TypeScript do Básico ao Avançado
-Rio de Janeiro
-Dezembro de 2022
+Rio de Janeiro <br/>
+Dezembro de 2022 <br/>
 JavaScript Avançado; TypeScript Avançado; NodeJS Avançado; React Intermediário; Banco de Dados relacional e não-relacional.
