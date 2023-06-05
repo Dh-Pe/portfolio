@@ -11,9 +11,9 @@ Meu nome é Dhomini e sou um estagiário de TI em busca de crescer em minha carr
 ### Formação
 
 ##### Graduação - Ciência da Computação
-UNIVERSIDADE ESTÁCIO DE SÁ
-Janeiro de 2022 - Dezembro de 2025 (Previsão de Formatura)
-Período: 3º
+UNIVERSIDADE ESTÁCIO DE SÁ <br/>
+Janeiro de 2022 - Dezembro de 2025 (Previsão de Formatura) <br/>
+Período: 3º <br/>
 Turno: Noite
 
 ### Experiências Profissionais
